@@ -6,9 +6,6 @@ Requires xml-js
 ###### Examples
 
 ```js
-    const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
-    url = 'http://127.0.0.1:64989';
-    const convert = require('xml-js');
     const test = require('./rcctalk')
     
     var openjobresult = await test.OpenJob("Test2","print('test')","200") // JobId, script, and expiration time. Expiration time is optional
