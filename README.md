@@ -5,6 +5,9 @@ Requires node-fetch
 
 Requires xml-js
 
+RCC if you don't already have it ;) :
+https://github.com/COM1/RCCService
+
 ###### Examples
 
 ```js
